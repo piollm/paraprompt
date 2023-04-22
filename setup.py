@@ -8,10 +8,9 @@ setup(
         "requests",
         "dask[distributed]",
     ],
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="piollm",
     description="A Python library to generate multiple prompt variants using GPT-4 and Dask",
     license="MIT",
-    keywords="gpt-4 openai dask prompts",
-    url="https://github.com/piollm/para-prompt",
+    keywords="gpt-4 openai parallel prompts",
+    url="https://github.com/piollm/paraprompt",
 )

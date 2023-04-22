@@ -3,7 +3,7 @@ import json
 from dask.distributed import Client, as_completed
 import math
 
-class Promptopia:
+class ParaPrompt:
     def __init__(self, prompt):
         self.prompt = prompt
         self.parallelism = 1

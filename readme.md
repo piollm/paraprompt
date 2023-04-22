@@ -1,6 +1,6 @@
 ## Project Name: ParaPrompt
 
-ParaPrompt is a Python library designed to efficiently generate creative and diverse prompts using the GPT-4 API. The primary focus of this library is to maximize the parallelism capabilities during the generation process. By leveraging Dask for task distribution, ParaPrompt enables developers to harness the power of multiple cores and workers, significantly reducing the time spent on generating prompts and improving overall application performance.
+ParaPrompt is a Python library designed to efficiently generate creative and diverse prompts using the GPT-4 API. The primary focus of this library is to maximize parallelism capabilities during the generation process. By leveraging Dask for task distribution, ParaPrompt enables developers to harness the power of multiple cores and workers, significantly reducing the time spent on generating prompts and improving overall application performance.
 
 Developers would want to use ParaPrompt in situations where they require multiple prompt variations based on specific criteria, and where they need to optimize resource usage and minimize generation time. ParaPrompt provides an easy-to-use interface for customizing parallelism and generating prompts using the GPT-4 API.
 
@@ -20,20 +20,18 @@ Developers would want to use ParaPrompt in situations where they require multipl
 
 ## Installation
 
-Install the required dependencies using the following command:
+Install ParaPrompt using the following command:
 
-\`\`\`sh
-pip install dask distributed requests
-\`\`\`
+```sh
+pip install paraprompt
+``` 
 
-Clone the repository and include the \`promptopia.py\` file in your project.
-
-## Usage
-
+Usage
 Here's a simple example of how to use the ParaPrompt class, focusing on the parallelism capabilities:
 
-\`\`\`python
-from promptopia import ParaPrompt
+python
+Copy code
+from paraprompt import ParaPrompt
 
 api_key = "your_api_key_here"
 input_prompt = "Write a story about a cat and a dog."
@@ -46,6 +44,4 @@ para_prompt = ParaPrompt(input_prompt).key(api_key).par(parallelism_level).varia
 generated_prompts = para_prompt.generate()
 
 print(generated_prompts)
-\`\`\`
-
 By setting the parallelism level, developers can control the degree of task distribution across available workers, tailoring the performance of the prompt generation process to their specific needs and hardware capabilities.

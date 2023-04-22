@@ -1,8 +1,8 @@
 ## Project Name: ParaPrompt
 
-ParaPrompt is a Python library designed to efficiently generate creative and diverse prompts using the GPT-4 API. The primary focus of this library is to maximize parallelism capabilities during the generation process. By leveraging Dask for task distribution, ParaPrompt enables developers to harness the power of multiple cores and workers, significantly reducing the time spent on generating prompts and improving overall application performance.
+ParaPrompt is a Python library designed to effectively generate imaginative and varied prompts using the GPT-4 API. Its primary goal is to optimize parallelism during the generation process. By utilizing Dask for task distribution, ParaPrompt allows developers to tap into the potential of multiple cores and workers, significantly reducing prompt generation time and enhancing overall application performance.
 
-Developers would want to use ParaPrompt in situations where they require multiple prompt variations based on specific criteria, and where they need to optimize resource usage and minimize generation time. ParaPrompt provides an easy-to-use interface for customizing parallelism and generating prompts using the GPT-4 API.
+Developers will find ParaPrompt beneficial when they need multiple prompt variations based on specific criteria and want to maximize resource usage while minimizing generation time. ParaPrompt offers a user-friendly interface for adjusting parallelism levels and generating prompts using the GPT-4 API.
 
 ## Features
 

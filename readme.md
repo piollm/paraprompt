@@ -45,3 +45,7 @@ generated_prompts = para_prompt.generate()
 
 print(generated_prompts)
 By setting the parallelism level, developers can control the degree of task distribution across available workers, tailoring the performance of the prompt generation process to their specific needs and hardware capabilities.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
